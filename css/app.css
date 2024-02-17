@@ -4,6 +4,10 @@
     box-sizing: border-box;
     padding: 0;
 }
+
+ul , li {
+    list-style: none; padding: 0; margin: 0;
+}
 body {
     background-color: rgb(241, 241, 241);
 }
@@ -33,28 +37,81 @@ main{
 }
 .bottoni_container {
     padding: 10px;
-  
     height: 50px;
     border-bottom: 1px solid  rgb(241, 241, 241);
 }
 
 .bottoni_container > button {
+    color: rgb(96, 94, 94);
     font-weight: 1px;
-    padding: 5px;
-    font-size: 15px;
+    padding: 5px 8px;
+    font-size: 16px;
     margin: 2px;
     border-style: none;
-    height: 25px;
+    height: 26px;
     border-radius: 5px;
     line-height: 10px;
-}
-
-.add_section:hover ,.add_task:hover {
-    background-color: rgba(0, 0, 0, 0.123);color: white;
 }
 
 .add_task {
     background-color: rgb(48, 155, 255)
 } 
 
+.add_section:hover ,.add_task:hover {
+    background-color: rgba(0, 0, 0, 0.123);color: white;
+}
+
+
+.lista_task { color: rgb(96, 94, 94);
+    padding: 30px;
+}
+
+.lista_task > * {vertical-align: middle;}
+
+.lista_task h3 { 
+    vertical-align: auto;
+    display: inline-block;
+    line-height: 10px;
+    margin-top: 10px;
+    color: rgb(130, 126, 126);
+}
+
+.lista_task ul , li {margin-top: 15px;}
+
+
+.freccia{margin-right: 3px;
+    vertical-align: 3px;
+    font-size:10px; 
+}
+
+.verified {
+    text-align: center ;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    color: rgb(7, 198, 7);
+    border-radius: 50% ; 
+    border: 1px solid rgb(7, 198, 7); 
+    text-align: center;
+    line-height:  20px;
+    font-size: 10px;
+    vertical-align: auto;
+}
+
+
+.croce {
+    text-align: center ;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    color: red;
+    border-radius: 50% ; 
+    border: 1px solid red; 
+    text-align: center;
+    line-height:  20px;
+    font-size: 10px;
+    vertical-align: auto;
+}
 
