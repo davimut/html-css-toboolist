@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+main{
+    padding: 25px;
+}
+
+.immagine_logo {
+    width: 300px;
+}
+
+.barra_logo {
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.container {
+    margin: auto;
+    height: 700px;
+    max-width: 800px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+}
+.bottoni_container {
+    padding: 10px;
+  
+    height: 50px;
+    border-bottom: 1px solid  rgb(241, 241, 241);
+}
+
+.bottoni_container > button {
+    font-weight: 1px;
+    padding: 5px;
+    font-size: 15px;
+    margin: 2px;
+    border-style: none;
+    height: 25px;
+    border-radius: 5px;
+    line-height: 10px;
+}
+
+.add_section:hover ,.add_task:hover {
+    background-color: rgba(0, 0, 0, 0.123);color: white;
+}
+
+.add_task {
+    background-color: rgb(48, 155, 255)
+} 
+
+
