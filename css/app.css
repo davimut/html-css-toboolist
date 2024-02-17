@@ -4,45 +4,46 @@
     box-sizing: border-box;
     padding: 0;
 }
-
 ul , li {
     list-style: none; padding: 0; margin: 0;
 }
 body {
     background-color: rgb(241, 241, 241);
 }
-
 main{
     padding: 25px;
 }
 
+
+
+
 .immagine_logo {
     width: 300px;
 }
-
 .barra_logo {
     padding: 10px 20px;
     background-color: white;
 }
 
+
+
+
 .container {
     margin: auto;
-    height: 700px;
+    height: max-content;
     max-width: 800px;
 }
-
 .card {
     background-color: white;
     border-radius: 10px;
 }
 .bottoni_container {
+    min-width: max-content;
     padding: 10px;
     height: 50px;
     border-bottom: 1px solid  rgb(241, 241, 241);
 }
-
 .bottoni_container > button {
-    color: rgb(96, 94, 94);
     font-weight: 1px;
     padding: 5px 8px;
     font-size: 16px;
@@ -52,22 +53,23 @@ main{
     border-radius: 5px;
     line-height: 10px;
 }
-
 .add_task {
     background-color: rgb(48, 155, 255)
 } 
-
 .add_section:hover ,.add_task:hover {
-    background-color: rgba(0, 0, 0, 0.123);color: white;
+    background-color: rgba(0, 0, 0, 0.123);
+    color: white;
 }
-
-
 .lista_task { color: rgb(96, 94, 94);
     padding: 30px;
 }
 
-.lista_task > * {vertical-align: middle;}
 
+
+
+.lista_task > * {
+    vertical-align: middle;
+}
 .lista_task h3 { 
     vertical-align: auto;
     display: inline-block;
@@ -75,14 +77,16 @@ main{
     margin-top: 10px;
     color: rgb(130, 126, 126);
 }
-
-.lista_task ul , li {margin-top: 15px;}
-
-
-.freccia{margin-right: 3px;
+.lista_task ul , li {
+    margin-top: 15px;
+}
+.freccia{
+    margin-right: 3px;
     vertical-align: 3px;
     font-size:10px; 
 }
+
+
 
 .verified {
     text-align: center ;
@@ -98,8 +102,6 @@ main{
     font-size: 10px;
     vertical-align: auto;
 }
-
-
 .croce {
     text-align: center ;
     display: inline-block;
@@ -115,3 +117,37 @@ main{
     vertical-align: auto;
 }
 
+
+
+.badge {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center ;
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+    line-height: 20px;
+    vertical-align: auto;
+    margin: 0px 10px;
+    color: white;   
+    border-radius: 50px;
+    font-size: 10px;
+    padding:0px 5px;
+}
+.badge.blue {
+  background-color: rgb(22, 185, 255);   
+}
+.badge.viola{
+    background-color: rgb(163, 72, 247);
+}
+.badge.arancio{
+     background-color: rgb(255, 132, 0);
+}
+.bage.rosa{
+    background-color:rgb(255, 0, 195);
+}
+.badge.verde{ 
+    background-color: rgb(38, 211, 55);
+}
+.badge.lime{ 
+    background-color: rgb(160, 230, 55);
+}
