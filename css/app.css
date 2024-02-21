@@ -44,7 +44,7 @@ main{
     border-bottom: 1px solid  rgb(241, 241, 241);
 }
 .bottoni_container > button {
-    font-weight: 1px;
+    font-weight: 1;
     padding: 5px 8px;
     font-size: 16px;
     margin: 2px;
@@ -71,7 +71,7 @@ main{
     vertical-align: middle;
 }
 .lista_task h3 { 
-    vertical-align: auto;
+    vertical-align: middle;
     display: inline-block;
     line-height: 10px;
     margin-top: 10px;
@@ -89,7 +89,6 @@ main{
 
 
 .verified {
-    text-align: center ;
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -100,7 +99,7 @@ main{
     text-align: center;
     line-height:  20px;
     font-size: 10px;
-    vertical-align: auto;
+    vertical-align: middle;
 }
 .croce {
     text-align: center ;
@@ -111,10 +110,9 @@ main{
     color: red;
     border-radius: 50% ; 
     border: 1px solid red; 
-    text-align: center;
     line-height:  20px;
     font-size: 10px;
-    vertical-align: auto;
+    vertical-align: middle;
 }
 
 
@@ -123,10 +121,9 @@ main{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center ;
     display: inline-block;
-    text-align: center;
     width: 60px;
     line-height: 20px;
-    vertical-align: auto;
+    vertical-align: middle;
     margin: 0px 10px;
     color: white;   
     border-radius: 50px;
